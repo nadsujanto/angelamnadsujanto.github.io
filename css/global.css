@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top:10px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: yellow;
+    color: black;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header.header {
+    height: 100vh;
+    background-image: url('../image/bg_2.jpg');
+    background-size:cover;
+    width: 100%;
+}
+header.c{
+  background-image: url('../image/bg_1.jpg');
+  background-size:cover;
+  height:25vh;
+}
+
+header.header {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100vh;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   padding-left:650px;
+   height:60px;
+   
+}
+.image-align  {
+    text-align:center;
+}
+
+.main-content {
+    background-color: darkolivegreen;
+    min-height: 100vh;
+}
+
+.content-left {
+    width: 30%;
+    float: left;
+}
+
+.content-left-wrapper {
+    padding-right:50px;
+    padding-left:50px;
+
+}
+
+.content-left-wrapper h2,
+.content-left-wrapper h5{
+    text-align: right;
+}
+
+.content-wrap {
+    padding: 120px 0;
+}
+.content-wrap h2 {
+    padding-top: 100px 0;
+}
+
+.content-wrap.other {
+    padding: 40px 0;
+}
+
+.content-right {
+    width: 70%;
+    float: right;
+}
+
+.content-right-wrapper p:not(:first-child) {
+    padding-top: 22px;
+}
+
+.content-left-wrapper.other h1,
+.content-left-wrapper.other h3,
+.content-left-wrapper.other h5
+.content-left-wrapper.other h3 {
+    text-align: right;
+}
+
+.content-left-wrapper.other p {
+    text-align: right;
+}
+
+.clear {
+    clear: both;
+}
+.col {
+  width:33.33%px;
+  float:left;
+  background-color:yellow;
+  border-radius:360px;
+  padding:10px;
+}
+.col-wrapper {
+  padding:20px
+}
+.col-bulet {
+  height:30px;
+  width:30px;
+}
+
+@media screen and (max-width: 1043.33px) {
+    .content-left, .content-right {
+        width: 100%;
+}
+    .content-left-wrapper h1{
+        padding-right: 0;
+}
+    .content-right-wrapper {
+        padding-left: 15px;
+        padding-right:18px;
+        padding-bottom: 2px;
+}
+    .content-right-wrappe>div.image-align {
+      text-align: center;
+}
+    .content-left.other,
+    .content-left,
+    .content-right.other,
+    .content-right {
+        padding-left: 10px;
+        padding-bottom: 5px
+  }
+    header.header h1 {
+        line-height: 1.5;
+        padding-top: 200px;
+  }
+    .content.wrap h2 {
+        line-height: 1.5;
+        padding-top: 20px;
+  }
+    .col {
+    width:100%
+}
+    .footer {
+    width: 100%;
+    padding-left:40px;
+    height:60px;
+}

@@ -1,0 +1,73 @@
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size:2em;
+  line-height:1;
+  text-transform:uppercase;
+  text-align:right;
+  color:darkolivegreen;
+
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size:18px;
+  color:white;
+  text-align:left;
+  font-weight:normal;
+
+}
+
+h3{
+  font-family: 'Gotham',sans-serif;
+  font-size:45px;
+  padding-bottom:3px;
+  padding:10px;
+  color:white;
+  text-align:right;
+  font-weight: lighter;
+
+}
+
+h5{
+  font-family: 'Raleway',sans-serif;
+  font-size:20px;
+  margin:0px;
+  color:white;
+  text-align:right;
+  font-style:italic;
+  font-weight:normal;
+}
+
+p{
+  font-family:'Raleway',Sans-serif;
+  font-size:15px;
+  padding:2px;
+  color:black;
+  text-align:left;
+}
+.card.wide h2 {
+  text-align:center;
+  font-size:40px;
+  
+}
+.navbar {
+  text-align:left;
+  font-family: 'Gotham', sans-serif;
+  
+}
+.header h1{
+  font-size:90px;
+  padding-top:500px;
+  color:white;
+  font-family:'Gotham',sans-serif;
+  text-align:center;
+  
+}
+.right h3{
+  font-weight:italic;
+  
+}
+.left h3{
+  font-weight:italic;
+  text-align:right;
+}
